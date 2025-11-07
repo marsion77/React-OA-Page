@@ -5,8 +5,8 @@ const TechSection = () => {
 
         <>
 
-          <div className="px-10 py-10">
-              <input type="text" placeholder="Search..." className="border-[1px] border-black pl-5 w-[350px] rounded-2xl h-[50px]"  />
+          <div className="px-[5%]">
+              <input type="text" placeholder="Search..." className="border-2 border-black pl-5 w-[350px] rounded-2xl h-[50px]"  />
             <h1 className="mt-10">Available Technologies</h1>
           </div>
 

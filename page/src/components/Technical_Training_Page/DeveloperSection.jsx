@@ -2,8 +2,8 @@ import images from "../../assets/Images";
 
 const DeveloperSection = () => {
   return (
-    <div className="w-full px:10px py-12">
-      <div className="w-full flex flex-col md:flex-row justify-around items-center gap-10">
+    // <div className="w-full px:10px py-12">
+      <div className="w-full flex flex-col md:flex-row justify-around items-center gap-10 py-12">
 
         {/* Left Content */}
         <div className="md:w-1/2 max-w-[600px]">
@@ -51,7 +51,7 @@ const DeveloperSection = () => {
         </div>
 
       </div>
-    </div>
+    // </div>
   );
 };
 

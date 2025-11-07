@@ -9,7 +9,7 @@ const TechnicalPage = () => {
     return (
         <>
             <HeadSection />
-           <div className="w-[95%] mx-auto">
+           <div className="w-[98%] mx-auto">
              <DeveloperSection/>
             <TechSection/>
             <InterviewQue/>

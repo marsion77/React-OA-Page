@@ -5,15 +5,15 @@ const InterviewQue = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="max-w-[700px] mx-auto my-10">
-      {/* Section Title */}
-      <h1 className="text-[#00AEFF] text-xl font-semibold mb-6">
-        HR Interview question & Answers
+    <div className="my-10 mx-[5%]">
+      {/* Section Title (Right-aligned) */}
+      <h1 className="text-[#00AEFF] text-xl font-semibold mb-6 text-left">
+        HR Interview Questions & Answers
       </h1>
 
       {/* Accordion Card */}
       <div
-        className={`border rounded-lg overflow-hidden transition-all duration-300 ${
+        className={`w-full border rounded-lg overflow-hidden transition-all duration-300 ${
           isOpen ? "border-[#00AEFF]" : "border-gray-200"
         }`}
       >
@@ -45,7 +45,7 @@ const InterviewQue = () => {
         </div>
 
         {/* Blue Bottom Line */}
-        {isOpen && <div className="h:4px bg-[#00AEFF] w-full rounded-b-lg" />}
+        {isOpen && <div className="h-[4px] bg-[#00AEFF] w-full rounded-b-lg" />}
       </div>
     </div>
   );
