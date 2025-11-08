@@ -1,7 +1,7 @@
 import HeadSection from "./HeaderSection";
 import DeveloperSection from "./DeveloperSection";
 import TechSection from "./TechSection";
-import InterviewQue from "./InterviewQue";
+import InterviewQueSection from "./InterviewQueSection";
 
 
 
@@ -9,11 +9,9 @@ const TechnicalPage = () => {
     return (
         <>
             <HeadSection />
-           {/* <div className="w-[98%] mx-auto"> */}
-             <DeveloperSection/>
-            <TechSection/>
-            <InterviewQue/>
-           {/* </div> */}
+            <DeveloperSection />
+            <TechSection />
+            <InterviewQueSection />
         </>
     )
 }
