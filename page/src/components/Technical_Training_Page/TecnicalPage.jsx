@@ -2,6 +2,7 @@ import HeadSection from "./HeaderSection";
 import DeveloperSection from "./DeveloperSection";
 import TechSection from "./TechSection";
 import InterviewQueSection from "./InterviewQueSection";
+import Footer from "./Footer";
 
 
 
@@ -12,6 +13,7 @@ const TechnicalPage = () => {
             <DeveloperSection />
             <TechSection />
             <InterviewQueSection />
+            <Footer/>
         </>
     )
 }

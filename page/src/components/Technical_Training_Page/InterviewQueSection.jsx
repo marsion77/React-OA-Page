@@ -40,7 +40,7 @@ const InterviewQue = () => {
         return (
           <div
             key={index}
-            className={`w-full rounded-lg overflow-hidden transition-all duration-200 mb-15 ${isOpen ? "border border-[#00AEFF]" : "border border-transparent"
+            className={`w-full rounded-lg overflow-hidden transition-all duration-200 mb-10 ${isOpen ? "border border-[#00AEFF]" : "border border-transparent"
               }`}
 
           >

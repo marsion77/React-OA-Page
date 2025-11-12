@@ -20,7 +20,7 @@ const DeveloperSection = () => {
           Our comprehensive technical training programs combine hands-on
           projects, expert mentorship, and real-world scenarios to prepare you
           for success in the tech industry. From foundational programming to
-          advanced <br /> frameworks, we’ve got you covered.
+          advanced frameworks, we’ve got you covered.
         </p>
 
         <button className="bg-[linear-gradient(to_right,rgba(14,144,207,1)_0%,rgba(0,174,255,0.7)_100%)] text-white font-semibold px-5 py-3 rounded-lg flex items-center gap-2 shadow-md mt-13">
