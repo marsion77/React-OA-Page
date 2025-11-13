@@ -12,32 +12,52 @@ const ProjectImageSection = () => {
     { src: images.ProjectEight, title: "Job Portal Platform" },
     { src: images.ProjectNine, title: "Online Learning Dashboard" },
     { src: images.ProjectTen, title: "Fitness Tracking App" },
-    { src: images.ProjectEleven, title: "Travel Booking Website" },
-    { src: images.ProjectTwelve, title: "Blog Content Management System" },
   ];
 
   return (
     <section className="max-w-[1200px] w-[90%] mx-auto py-10 mt-10">
-      {/* Scrollable container */}
       <div
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-16 overflow-y-auto pr-3"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-16 overflow-y-auto pr-8"
         style={{
-          height: "700px", // 👈 fixed height for exactly 6 boxes visible
+          height: "700px",
         }}
       >
         {projects.map((project, index) => (
-          <div key={index} className="text-center">
-            <div className="w-full h-[260px] overflow-hidden rounded-xl shadow-md">
+          <div
+            key={index}
+            className="text-center bg-white rounded-xl shadow-[0_6px_20px_rgba(0,0,0,0.15)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.25)] hover:scale-[1.03] transition-all duration-300 p-4 cursor-pointer"
+          >
+            <div className="w-full h-[260px] overflow-hidden rounded-lg">
               <img
                 src={project.src}
                 alt={project.title}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                className="w-full h-full object-contain transition-transform duration-300"
               />
             </div>
-            <h1 className="mt-6 text-[20PX] font-medium TEXT-[]">{project.title}</h1>
+            <h1 className="mt-5 text-[20px] font-semibold text-[#00AEFF]">
+              {project.title}
+            </h1>
           </div>
         ))}
       </div>
+
+      {/* Custom scrollbar styling */}
+      <style jsx>{`
+        div::-webkit-scrollbar {
+          width: 10px;
+        }
+        div::-webkit-scrollbar-thumb {
+          background-color: #00aeff;
+          border-radius: 10px;
+        }
+        div::-webkit-scrollbar-thumb:hover {
+          background-color: #0092d3;
+        }
+        div::-webkit-scrollbar-track {
+          background: #f1f1f1;
+          border-radius: 10px;
+        }
+      `}</style>
     </section>
   );
 };

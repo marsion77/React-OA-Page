@@ -10,7 +10,7 @@ const ProjectIdeasSection = () => {
           <h1 className="text-[#00AEFF] text-[30px] font-semibold mb-5">
             Inspiring Project Ideas
           </h1>
-          <p className="mb-6 text-[#5C5A5A] text-[16px] leading-8 md:leading-9">
+          <p className="mb-6 text-[black] text-[16px]  md:leading-8">
             Our Academy has a placement cell that helps students find jobs after graduation.
             The cell works with companies to bring job opportunities to campus and helps
             students prepare for interviews. The placement cell also provides training and

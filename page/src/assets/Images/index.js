@@ -18,6 +18,11 @@ import ProjectThree from './ProjectThree.jpg'
 import ProjectFour from './ProjectFour.jpg'
 import ProjectFive from './ProjectFive.jpg'
 import ProjectSix from './ProjectSix.jpg'
+import ProjectSeven from './ProjectSeven.jpg'
+import ProjectEight from './ProjectEight.jpg'
+import ProjectNine from './ProjectNine.jpg'
+import ProjectTen from './ProjectTen.jpg'
+
 
 
 
@@ -42,7 +47,11 @@ const images = {
   ProjectThree,
   ProjectFour,
   ProjectFive,
-  ProjectSix
+  ProjectSix,
+  ProjectSeven,
+  ProjectEight,
+  ProjectNine,
+  ProjectTen
 };
 
 export default images;

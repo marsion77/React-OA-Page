@@ -9,14 +9,14 @@ const DeveloperSection = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row justify-between items-start gap-10 py-12 max-w-[1200px] w-[90%] mx-auto">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-10 py-12 max-w-[1200px] w-[90%] mx-auto">
 
       <div className="md:w-1/2 max-w-[600px]">
         <h1 className="text-[#00AEFF] text-[30px] font-semibold mb-4 w-full">
           Elevate Your Technical Skills
         </h1>
 
-        <p className="mb-6 text-[#5C5A5A] text-[22px] leading-9">
+        <p className="mb-6 text-[#5C5A5A] text-[16px] leading-8">
           Our comprehensive technical training programs combine hands-on
           projects, expert mentorship, and real-world scenarios to prepare you
           for success in the tech industry. From foundational programming to
@@ -25,7 +25,7 @@ const DeveloperSection = () => {
 
         <button className="bg-[linear-gradient(to_right,rgba(14,144,207,1)_0%,rgba(0,174,255,0.7)_100%)] text-white font-semibold px-5 py-3 rounded-lg flex items-center gap-2 shadow-md mt-13">
           <img src={images.developer} alt="" className="w-5 h-5" />
-          Developer’s Corner
+          Project Innovation Hub
         </button>
       </div>
 
