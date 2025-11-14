@@ -8,7 +8,7 @@ const InterviewQue = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const faqs = [
+  const hrInterviewQuestions = [
   {
     question: "Tell me about yourself?",
     answer:
@@ -79,7 +79,7 @@ const InterviewQue = () => {
       </h1>
 
       {/* Accordion List */}
-      {faqs.map((faq, index) => {
+      {hrInterviewQuestions.map((faq, index) => {
         const isOpen = openIndex === index;
         return (
           <div

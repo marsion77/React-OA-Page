@@ -76,12 +76,12 @@ const TechSection = () => {
                   className="w-[45px] h-[35px] flex justify-center items-center rounded-[5px]"
                   style={{ background: item.bg }}
                 >
-                  <img src={images.java} alt="" className="w-6 h-6" />
+                  <img src={images.tag} alt="" className="w-6 h-6" />
                 </div>
                 <p className="mt-2 text-sm font-semibold text-[#00AEFF]">
                   {item.name}
                 </p>
-                <p className="text-sm text-gray-600">{item.questions} Questions</p>
+                {/* <p className="text-sm text-gray-600">{item.questions} Questions</p> */}
               </div>
             ))
           ) : (

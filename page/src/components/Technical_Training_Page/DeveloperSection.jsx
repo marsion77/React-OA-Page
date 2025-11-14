@@ -23,7 +23,7 @@ const DeveloperSection = () => {
           advanced frameworks, we’ve got you covered.
         </p>
 
-        <button className="bg-[linear-gradient(to_right,rgba(14,144,207,1)_0%,rgba(0,174,255,0.7)_100%)] text-white font-semibold px-5 py-3 rounded-lg flex items-center gap-2 shadow-md mt-13">
+        <button className="bg-linear-to-r from-[#00AEFF] via-[#0070A4] to-[#006899] text-white font-semibold px-5 py-3 rounded-lg flex items-center gap-2 shadow-md mt-13">
           <img src={images.developer} alt="" className="w-5 h-5" />
           Project Innovation Hub
         </button>
